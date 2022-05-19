@@ -1,5 +1,5 @@
 def wordCount(str):
-    counts = dict()
+    counts = {}
     words = str.split()
     
     for word in words:
@@ -9,4 +9,6 @@ def wordCount(str):
             counts[word] = 1
         
     return counts
+
+
 print(wordCount("The quick brown fox jumps over the lazy dog."))
