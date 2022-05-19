@@ -1,5 +1,3 @@
-
-
 def charCounter(string1):
     newDict = {};
     for char in string1:
